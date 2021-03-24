@@ -1,11 +1,5 @@
 <template>
   <div class="w-1/2 mx-auto my-20">
-    <button 
-        class="bg-red-500 p-3 text-white"
-        v-on:click="carregarListaArtigos()"
-    >
-        Carrregar artigos
-    </button>
       <h1 class="text-3xl font-semibold text-red-600">
           {{tituloBlog}}
       </h1>
@@ -24,6 +18,9 @@ export default {
             listaArtigos: [],
             tituloBlog: "Super Blog"
         }
+    },
+    created() {
+        this.carregarListaArtigos();
     },
     methods:{
          carregarListaArtigos() {
