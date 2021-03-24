@@ -10,8 +10,8 @@
           {{tituloBlog}}
       </h1>
       <article v-for="artigo in listaArtigos" class="my-20 text-gray-600">
-          <h2 class="text-5xl font-semibold mb-5">Titulo do Artigo</h2>
-          <p class="mb-5">Resumo do Artigo</p>
+          <h2 class="text-5xl font-semibold mb-5">{{artigo.titulo}}</h2>
+          <p class="mb-5">{{artigo.resumo}}</p>
           <p class="text-red-500">Ler Mais</p>
       </article>
   </div>
