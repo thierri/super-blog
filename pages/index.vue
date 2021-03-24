@@ -9,7 +9,7 @@
       <h1 class="text-3xl font-semibold text-red-600">
           {{tituloBlog}}
       </h1>
-      <article class="my-20 text-gray-600">
+      <article v-for="artigo in listaArtigos" class="my-20 text-gray-600">
           <h2 class="text-5xl font-semibold mb-5">Titulo do Artigo</h2>
           <p class="mb-5">Resumo do Artigo</p>
           <p class="text-red-500">Ler Mais</p>
