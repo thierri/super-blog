@@ -1,10 +1,10 @@
 <template>
-  <div>
-      <h1>Titulo do Blog</h1>
-      <article>
-          <h2>Titulo do Artigo</h2>
-          <p>Resumo do Artigo</p>
-          <p>Ler Mais</p>
+  <div class="w-1/2 mx-auto my-20">
+      <h1 class="text-3xl font-semibold text-red-600">Titulo do Blog</h1>
+      <article class="my-20 text-gray-600">
+          <h2 class="text-5xl font-semibold mb-5">Titulo do Artigo</h2>
+          <p class="mb-5">Resumo do Artigo</p>
+          <p class="text-red-500">Ler Mais</p>
       </article>
   </div>
 </template>
