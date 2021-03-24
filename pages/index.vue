@@ -6,7 +6,6 @@
     >
         Carrregar artigos
     </button>
-    <p>{{listaArtigos}}</p>
       <h1 class="text-3xl font-semibold text-red-600">
           {{tituloBlog}}
       </h1>
